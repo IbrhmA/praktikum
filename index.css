@@ -1,0 +1,56 @@
+body {
+	height: 70%;
+	position: relative;
+	padding: 10px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background-color: beige;
+}
+
+.header {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.content {
+	position: relative;
+	width: 100%;
+}
+
+.content div {
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	border: 1px solid grey;
+	padding: 10px;
+	box-shadow: 10px 5px 5px black;
+	border-radius: 10px;
+}
+
+.content div span {
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+	font-size: 20px;
+}
+.content-left {}
+
+.content-right {
+	float: right;
+}
+
+#output {
+	width: 100%;
+	margin: 20px;
+	text-align: center;
+}
+
+#input {
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 50%;
+}
