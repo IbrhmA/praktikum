@@ -1,0 +1,28 @@
+header h1 {
+    text-align: center;
+}
+
+.label {
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.input {
+    width: calc(100% - 120px);
+}
+
+.content-wrapper {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+}
+#Check {
+    position: relative;
+    right: -50%;
+    transform: translateX(-50%);
+} 
+
+#output {
+    text-align: center;
+}
