@@ -1,16 +1,17 @@
 
 function checkAge() {
-    var name = document.getElementById("name").value;
-    var lastname = document.getElementById("lastname").value;
-    var age = document.getElementById("age").value;
-    var address = document.getElementById("address").value;
+    var data = {};
+    data.name = document.getElementById("name").value;
+    data.lastname = document.getElementById("lastname").value;
+    data.age = document.getElementById("age").value;
+    data.address = document.getElementById("address").value;
+
+    var isIbrahim=data.age === "15"&&data.name==="Ibrahim"&&data.lastname==="Abaci";
     
-    if(age === "15"&&name==="Ibrahim"&&lastname==="Abaci"){
+    if(isIbrahim){
 		document.getElementById("output").innerHTML = "Hi bro";
     }
     else{
-        document.getElementById("output").innerHTML= name + " " + lastname + " is " + age + " years old ";
+        document.getElementById("output").innerHTML= data.name + " " + data.lastname + " is " + data.age + " years old ";
     }
 }
-	
-   
