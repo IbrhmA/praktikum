@@ -1,0 +1,64 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.joe-coffee {
+   display: inline-block;
+}
+#Shop, #workshop, #discover, #locations {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: #118acb;
+    background-color: #118acb;
+    margin: 20px;
+    left: 15%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    padding: 5px;
+    color: white;
+}
+
+#Shop:hover, #workshop:hover, #discover:hover, #locations:hover {
+    background-color: white;
+    color: #118acb;
+}
+
+#order {
+    position: relative;
+    display: inline-block;
+    left: 45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#order:hover {
+    color: #118acb;
+}
+
+.loginicon {
+    position: relative;
+    left:47%
+}
+
+
+.searchicon {
+    position: relative;
+    left:49%
+}
+
+.beans {
+    position: relative;
+    width: 50%;
+    height: 50%;
+
+}
+
+  
+
+
+
